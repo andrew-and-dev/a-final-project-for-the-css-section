@@ -1,0 +1,251 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #145c83c6;
+}
+
+h1,
+nav a,
+.hero h2,
+.hero p {
+  color: #11354b;
+}
+
+h1 {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+h1::after {
+  content: url(../Images/1F436.svg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 14px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero img {
+  width: 450px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.hero {
+  display: flex;
+  gap: 16px;
+  flex-flow: wrap;
+  justify-content: space-around;
+  background: linear-gradient(#145c83c6, white);
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  flex-basis: 430px;
+}
+
+.hero div {
+  margin-top: 65px;
+  margin-bottom: 45px;
+}
+
+.hero h2 {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero button {
+  padding: 10px 14px;
+  background-color: #7dbbdd;
+  border: none;
+  border-radius: 5px;
+  color: #0d2c3d;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 120px;
+  border: 1px solid #0d2c3d;
+}
+
+.hero-image-p {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 0;
+}
+
+.hero-image-p p {
+  font-size: 14px;
+  align-self: flex-end;
+}
+
+div .adoption-ready-card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+div .adoption-ready-card p {
+  margin-bottom: 5px;
+}
+
+#shotout {
+  max-width: 200px;
+  font-size: 12px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.adoption-ready {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.adoption-ready-main {
+  display: flex;
+  gap: 32px 42px;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
+  padding: 16px;
+  background: linear-gradient(white, #145c8372);
+}
+
+.adoption-ready-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.adoption-ready-text h3 {
+  margin-bottom: 0;
+}
+
+.inspirational-quote {
+  display: flex;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.inspirational-quote p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+#quote-author {
+  font-size: 16px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.inspirational-quote div {
+  display: flex;
+  flex-direction: column;
+  /* gap: 8px; */
+}
+
+.application {
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adoption-submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #1d81b8c3;
+  align-content: center;
+  height: 150px;
+  width: 550px;
+  padding: 0 16px;
+  border-radius: 14px;
+}
+
+.submit {
+  padding: 0 14px;
+}
+
+.submit p {
+  color: white;
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.submit button {
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  min-height: 50px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text::after {
+  content: url("../Images/222.svg");
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+}
