@@ -138,6 +138,7 @@ div .adoption-ready-card p {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  background: linear-gradient(white, #145c8372);
 }
 
 .adoption-ready-main {
@@ -146,7 +147,6 @@ div .adoption-ready-card p {
   flex-flow: wrap row;
   justify-content: space-evenly;
   padding: 16px;
-  background: linear-gradient(white, #145c8372);
 }
 
 .adoption-ready-text {
